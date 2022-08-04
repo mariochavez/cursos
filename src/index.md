@@ -29,7 +29,7 @@ El curso Aprende a desarrollar aplicaciones modernas con Ruby on Rails se compon
           <%= feature.icon.html_safe %>
         </div>
         <h2 class="mt-4 font-display text-base text-slate-900 dark:text-white">
-          <a href="/">
+          <a href="/recursos-para-desarrollar">
             <span class="absolute -inset-px rounded-xl"></span><%= feature.name %>
           </a>
         </h2>
