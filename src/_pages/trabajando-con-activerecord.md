@@ -15,6 +15,10 @@ Nuestro primer modelo de la aplicación será el modelo de Account, con el cual 
 
 ## Video
 
+<div class="embed-container">
+  <iframe src="https://player.vimeo.com/video/736632462?h=13fa283707" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ---
 
 ## Código

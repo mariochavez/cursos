@@ -13,7 +13,9 @@ El primer paso para comenzar a trabajar con una aplicación de Ruby on Rails es 
 
 ## Video
 
-<iframe src="https://player.vimeo.com/video/736629657?h=01abdb1606" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-container">
+  <iframe src="https://player.vimeo.com/video/736629657?h=01abdb1606" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ---
 
