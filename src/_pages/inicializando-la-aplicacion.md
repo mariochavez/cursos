@@ -13,6 +13,8 @@ El primer paso para comenzar a trabajar con una aplicación de Ruby on Rails es 
 
 ## Video
 
+<iframe src="https://player.vimeo.com/video/736629657?h=01abdb1606" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 ---
 
 ## Código
@@ -41,23 +43,23 @@ bin/rails app:template <span style="color: #ffffff">LOCATION</span><span style="
 
 Los siguientes link son los que aparecen como referencia en el video.
 
-![From Ruby on Rails Guides: Getting Started with Rails — Ruby on Rails Guides | Getting Started with RailsThis guide covers getting up and running with Ruby on Rails.After reading this guide, you will know: How to install Rails, create a new Rails application, and connect your application to a database. The general layout of a R…](images/aprender/video2/video2-1.png)
+![From Ruby on Rails Guides: Getting Started with Rails — Ruby on Rails Guides | Getting Started with RailsThis guide covers getting up and running with Ruby on Rails.After reading this guide, you will know: How to install Rails, create a new Rails application, and connect your application to a database. The general layout of a R…](/images/aprender/video2/video2-1.png)
 [https://guides.rubyonrails.org/getting_started.html](https://guides.rubyonrails.org/getting_started.html){:target="_blank"}
 
-![From GitHub: GitHub - testdouble/standard: 🌟 Ruby Style Guide, with linter & automatic code fixer | 🌟 Ruby Style Guide, with linter & automatic code fixer - GitHub - testdouble/standard: 🌟 Ruby Style Guide, with linter & automatic code fixer](images/aprender/video2/video2-2.png)
+![From GitHub: GitHub - testdouble/standard: 🌟 Ruby Style Guide, with linter & automatic code fixer | 🌟 Ruby Style Guide, with linter & automatic code fixer - GitHub - testdouble/standard: 🌟 Ruby Style Guide, with linter & automatic code fixer](/images/aprender/video2/video2-2.png)
 [https://github.com/testdouble/standard](https://github.com/testdouble/standard){:target="_blank"}
 
-![From Brakemanscanner.org: Brakeman | Brakeman is a static analysis security vulnerability scanner for Ruby on Rails applications.](images/aprender/video2/video2-3.png)
+![From Brakemanscanner.org: Brakeman | Brakeman is a static analysis security vulnerability scanner for Ruby on Rails applications.](/images/aprender/video2/video2-3.png)
 [https://brakemanscanner.org/](https://brakemanscanner.org/){:target="_blank"}
 
-![From GitHub: GitHub - rubysec/bundler-audit: Patch-level verification for Bundler | Patch-level verification for Bundler. Contribute to rubysec/bundler-audit development by creating an account on GitHub.](images/aprender/video2/video2-4.png)
+![From GitHub: GitHub - rubysec/bundler-audit: Patch-level verification for Bundler | Patch-level verification for Bundler. Contribute to rubysec/bundler-audit development by creating an account on GitHub.](/images/aprender/video2/video2-4.png)
 [https://github.com/rubysec/bundler-audit](https://github.com/rubysec/bundler-audit){:target="_blank"}
 
-![From Martian Chronicles: Introducing Overmind and Hivemind — Martian Chronicles | Never mind your usual Procfile manager, here’s the Overmind and its little brother—Hivemind. Evil Martians use these tools over Foreman to manage Procfile-based applications for development.](images/aprender/video2/video2-5.png)
+![From Martian Chronicles: Introducing Overmind and Hivemind — Martian Chronicles | Never mind your usual Procfile manager, here’s the Overmind and its little brother—Hivemind. Evil Martians use these tools over Foreman to manage Procfile-based applications for development.](/images/aprender/video2/video2-5.png)
 [https://evilmartians.com/chronicles/introducing-overmind-and-hivemind](https://evilmartians.com/chronicles/introducing-overmind-and-hivemind){:target="_blank"}
 
-![From Railsbytes.com: Rails Bytes | ](images/aprender/video2/video2-6.png)
+![From Railsbytes.com: Rails Bytes | ](/images/aprender/video2/video2-6.png)
 [https://railsbytes.com/](https://railsbytes.com/){:target="_blank"}
 
-![From Githubusercontent.com:  | ](images/aprender/video2/video2-7.png)
+![From Githubusercontent.com:  | ](/images/aprender/video2/video2-7.png)
 [https://gist.githubusercontent.com/mariochavez/f54bcc6ca4049a25f9b6142108c2d4da/raw/ea6993614c5c3ab4e4f8a41e07d85335c3ebced2/overmind.rb](https://gist.githubusercontent.com/mariochavez/f54bcc6ca4049a25f9b6142108c2d4da/raw/ea6993614c5c3ab4e4f8a41e07d85335c3ebced2/overmind.rb){:target="_blank"}
