@@ -7,6 +7,10 @@ export default class extends Controller {
     this.html = document.querySelector("html")
   }
 
+  disconnect() {
+    this.html.style.overflow = "auto"
+  }
+
   toggle() {
     const open = !this.menuTarget.classList.contains("hidden")
     if (open) {
