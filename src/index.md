@@ -3,6 +3,7 @@ layout: default
 hero: true
 title: Aprende a crear aplicaciones Web modernas
 subtitle: Introducción
+excerpt: El curso Aprende a desarrollar aplicaciones modernas con Ruby on Rails se compone de una serie de videos para construir una aplicación para el manejo de finanzas personales donde se muestra las características importantes que debemos de conocer al desarrollar aplicaciones con Ruby on Rails.
 ---
 
 <p class="lead">Aprende a desarrollar aplicaciones modernas con Ruby on Rails. </p>
