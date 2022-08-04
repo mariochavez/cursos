@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="es" class="antialiased [font-feature-settings:'ss01'] scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aprende a crear aplicaciones Web modernas | Conoce como utilizar el framework Ruby on Rails para desarrollar aplicaciones de forma ágil.</title>
+
+<meta name="description" content="Conoce como utilizar el framework Ruby on Rails para desarrollar aplicaciones de forma ágil." />
+
+<!-- Begin Bridgetown SEO tag v5.0.0 -->
+<title>Aprende a crear aplicaciones Web modernas</title>
+<meta property="og:title" content="Aprende a crear aplicaciones Web modernas" />
+<meta name="author" content="Mario Alberto Chávez" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Introducción" />
+<meta property="og:description" content="Introducción" />
+<link rel="canonical" href="https://cursos.mariochavez.io/" />
+<meta property="og:url" content="https://cursos.mariochavez.io/" />
+<meta property="og:site_name" content="Aprende a crear aplicaciones Web modernas" />
+<meta property="og:image" content="https://cursos.mariochavez.io/images/aprende.jpg" />
+<meta property="og:image:height" content="674" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-08-04T02:56:52+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://cursos.mariochavez.io/images/aprende.jpg" />
+<meta property="twitter:title" content="Aprende a crear aplicaciones Web modernas" />
+<meta name="twitter:site" content="@mario_chavez" />
+<meta name="twitter:creator" content="@Mario Alberto Chávez" />
+<!-- End Bridgetown SEO tag -->
+
+
+<link type="application/atom+xml" rel="alternate" href="https://cursos.mariochavez.io/feed.xml" title="Aprende a crear aplicaciones Web modernas" />
+<link type="application/atom+xml" rel="alternate" href="https://cursos.mariochavez.io/feed/pages.xml" title="Aprende a crear aplicaciones Web modernas">
+
+<link rel="stylesheet" href="/assets/index.E3GWDEKJ.css" />
+<script src="/assets/index.KMQ4EBC2.js" defer></script>
+
+
+  </head>
+
+  <body class="default " data-controller="mobile-menu">
+    <header class="sticky top-0 z-50 flex flex-wrap items-center justify-between bg-white px-4 py-5 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8 dark:bg-transparent">
+  <div class="mr-6 flex lg:hidden">
+    <button type="button" class="relative" aria-label="Open navigation" data-action="mobile-menu#toggle">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" class="h-6 w-6 stroke-slate-500">
+        <path d="M4 7h16M4 12h16M4 17h16"></path>
+      </svg>
+    </button>
+    <div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none"></div>
+  </div>
+  <div class="relative flex flex-grow basis-0 items-center">
+    <a aria-label="Home page" href="/">
+      <img src="/images/mc.svg" class="h-5 w-auto fill-slate-700 dark:fill-sky-100 lg:hidden" />
+      <img src="/images/mario_chavez.svg" class="hidden h-5 w-auto fill-slate-700 dark:fill-sky-100 lg:block" />
+    </a>
+  </div>
+  <div class="-my-5 mr-6 sm:mr-8 md:mr-0">
+    <div class="hidden">
+      <button type="button" class="group flex h-6 w-6 items-center justify-center sm:justify-start md:h-auto md:w-80 md:flex-none md:rounded-lg md:py-2.5 md:pl-4 md:pr-3.5 md:text-sm md:ring-1 md:ring-slate-200 md:hover:ring-slate-300 dark:md:bg-slate-800/75 dark:md:ring-inset dark:md:ring-white/5 dark:md:hover:bg-slate-700/40 dark:md:hover:ring-slate-500 lg:w-96">
+        <svg aria-hidden="true" viewBox="0 0 20 20" class="h-5 w-5 flex-none fill-slate-400 group-hover:fill-slate-500 dark:fill-slate-500 md:group-hover:fill-slate-400">
+          <path d="M16.293 17.707a1 1 0 0 0 1.414-1.414l-1.414 1.414ZM9 14a5 5 0 0 1-5-5H2a7 7 0 0 0 7 7v-2ZM4 9a5 5 0 0 1 5-5V2a7 7 0 0 0-7 7h2Zm5-5a5 5 0 0 1 5 5h2a7 7 0 0 0-7-7v2Zm8.707 12.293-3.757-3.757-1.414 1.414 3.757 3.757 1.414-1.414ZM14 9a4.98 4.98 0 0 1-1.464 3.536l1.414 1.414A6.98 6.98 0 0 0 16 9h-2Zm-1.464 3.536A4.98 4.98 0 0 1 9 14v2a6.98 6.98 0 0 0 4.95-2.05l-1.414-1.414Z"></path>
+        </svg>
+        <span class="sr-only md:not-sr-only md:ml-2 md:text-slate-500 md:dark:text-slate-400">Search docs</span>
+        <kbd class="ml-auto hidden font-medium text-slate-400 dark:text-slate-500 md:block">
+          <kbd class="font-sans">⌘</kbd>
+          <kbd class="font-sans">K</kbd>
+        </kbd>
+      </button>
+    </div>
+  </div>
+  <div class="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
+    <div class="relative z-10 hidden">
+      <label class="sr-only" id="headlessui-listbox-label-:R1j36:">Theme</label>
+      <button class="flex h-6 w-6 items-center justify-center rounded-lg shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5" id="headlessui-listbox-button-:R2j36:" type="button" aria-haspopup="true" aria-expanded="false" aria-labelledby="headlessui-listbox-label-:R1j36: headlessui-listbox-button-:R2j36:" aria-label="System">
+        <svg aria-hidden="true" viewBox="0 0 16 16" class="hidden h-4 w-4 fill-sky-400 [[data-theme=light]_&]:block"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 1a1 1 0 0 1 2 0v1a1 1 0 1 1-2 0V1Zm4 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm2.657-5.657a1 1 0 0 0-1.414 0l-.707.707a1 1 0 0 0 1.414 1.414l.707-.707a1 1 0 0 0 0-1.414Zm-1.415 11.313-.707-.707a1 1 0 0 1 1.415-1.415l.707.708a1 1 0 0 1-1.415 1.414ZM16 7.999a1 1 0 0 0-1-1h-1a1 1 0 1 0 0 2h1a1 1 0 0 0 1-1ZM7 14a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm-2.536-2.464a1 1 0 0 0-1.414 0l-.707.707a1 1 0 0 0 1.414 1.414l.707-.707a1 1 0 0 0 0-1.414Zm0-8.486A1 1 0 0 1 3.05 4.464l-.707-.707a1 1 0 0 1 1.414-1.414l.707.707ZM3 8a1 1 0 0 0-1-1H1a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Z"></path>
+        </svg>
+        <svg aria-hidden="true" viewBox="0 0 16 16" class="hidden h-4 w-4 fill-sky-400 [[data-theme=dark]_&]:block"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.23 3.333C7.757 2.905 7.68 2 7 2a6 6 0 1 0 0 12c.68 0 .758-.905.23-1.332A5.989 5.989 0 0 1 5 8c0-1.885.87-3.568 2.23-4.668ZM12 5a1 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 0 2 1 1 0 0 0-1 1 1 1 0 1 1-2 0 1 1 0 0 0-1-1 1 1 0 1 1 0-2 1 1 0 0 0 1-1 1 1 0 0 1 1-1Z"></path>
+        </svg>
+        <svg aria-hidden="true" viewBox="0 0 16 16" class="hidden h-4 w-4 fill-slate-400 [:not(.dark)[data-theme=system]_&]:block"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 1a1 1 0 0 1 2 0v1a1 1 0 1 1-2 0V1Zm4 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm2.657-5.657a1 1 0 0 0-1.414 0l-.707.707a1 1 0 0 0 1.414 1.414l.707-.707a1 1 0 0 0 0-1.414Zm-1.415 11.313-.707-.707a1 1 0 0 1 1.415-1.415l.707.708a1 1 0 0 1-1.415 1.414ZM16 7.999a1 1 0 0 0-1-1h-1a1 1 0 1 0 0 2h1a1 1 0 0 0 1-1ZM7 14a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm-2.536-2.464a1 1 0 0 0-1.414 0l-.707.707a1 1 0 0 0 1.414 1.414l.707-.707a1 1 0 0 0 0-1.414Zm0-8.486A1 1 0 0 1 3.05 4.464l-.707-.707a1 1 0 0 1 1.414-1.414l.707.707ZM3 8a1 1 0 0 0-1-1H1a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Z"></path>
+        </svg>
+        <svg aria-hidden="true" viewBox="0 0 16 16" class="hidden h-4 w-4 fill-slate-400 [.dark[data-theme=system]_&]:block"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.23 3.333C7.757 2.905 7.68 2 7 2a6 6 0 1 0 0 12c.68 0 .758-.905.23-1.332A5.989 5.989 0 0 1 5 8c0-1.885.87-3.568 2.23-4.668ZM12 5a1 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 0 2 1 1 0 0 0-1 1 1 1 0 1 1-2 0 1 1 0 0 0-1-1 1 1 0 1 1 0-2 1 1 0 0 0 1-1 1 1 0 0 1 1-1Z"></path>
+        </svg>
+      </button>
+    </div>
+    <a class="group" aria-label="GitHub" href="https://github.com/mariochavez" target="_blank">
+      <svg aria-hidden="true" viewBox="0 0 16 16" class="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300"><path d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"></path>
+      </svg>
+    </a>
+  </div>
+</header>
+
+
+    <main data-controller="this-page quick-links" data-quick-links-normal-class="font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300" data-quick-links-active-class="text-rose-500">
+      <div class="overflow-hidden bg-pink-700 dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
+  <div class="py-16 sm:px-2 lg:relative lg:py-20 lg:px-0">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
+      <div class="relative z-10 md:text-center lg:text-left">
+        <img alt="" src="/images/blur-cyan.png" width="530" height="530" decoding="async" data-nimg="future" class="absolute bottom-full right-full -mr-72 -mb-56 opacity-50">
+        <div class="relative">
+          <p class="inline bg-gradient-to-r from-pink-200 via-rose-400 to-pink-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">Aprende a crear aplicaciones Web modernas.</p>
+          <p class="mt-3 text-2xl tracking-tight text-pink-200">Conoce como utilizar el framework Ruby on Rails para desarrollar aplicaciones de forma ágil.</p>
+          <div class="mt-8 flex gap-4 md:justify-center lg:justify-start">
+            <a class="rounded-full bg-rose-300 py-2 px-4 text-sm font-semibold text-slate-900 hover:bg-rose-200 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-300/50 active:bg-rose-500" href="/recursos-para-desarrollar">Comenzar a aprender</a>
+            <a class="rounded-full bg-slate-800 py-2 px-4 text-sm font-medium text-white hover:bg-slate-700 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50 active:text-slate-400" href="https://github.com/mariochavez" target="_blank">Ver en GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="relative lg:static xl:pl-10">
+        <div class="absolute inset-x-[-50vw] -top-32 -bottom-48 [mask-image:linear-gradient(transparent,white,white)] dark:[mask-image:linear-gradient(transparent,white,transparent)] lg:left-[calc(50%+14rem)] lg:right-0 lg:-top-32 lg:-bottom-32 lg:[mask-image:none] lg:dark:[mask-image:linear-gradient(white,white,transparent)]">
+          <svg aria-hidden="true" viewBox="0 0 668 413" width="668" height="413" fill="none" class="absolute opacity-70 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 lg:left-0">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(-1075.000000, -457.000000)" fill="#FFFFFF">
+                <g transform="translate(1075.000000, 457.000000)">
+                  <path d="M659.903985,181.119414 C602.597498,137.271987 458.062066,54.6571087 341.89328,146.173714 C225.724495,237.69032 259.29514,401.467126 259.29514,412.480874 C226.480852,412.480874 83.7167195,412.480874 29.0434783,412.480874 C73.5910076,219.544491 156.0351,133.734824 247.926071,77.8593757 C448.656079,-44.1970027 670.153601,173.075762 667.984191,175.108073 C665.81478,177.140385 665.81478,177.140385 659.903985,181.119414 Z" id="Path"></path>
+                  <polygon id="Path-2" points="15.7338392 255.62195 52.2782609 273.403681 37.9739595 319.527438 -3.46347437e-15 305.973766"></polygon>
+                  <polygon id="Path-3" points="106.350675 110.382206 145.217391 135.43376 115.249868 174.287693 75.5130435 145.300726"></polygon>
+                  <polygon id="Path-4" points="197.495652 37.5092199 234.820998 17.4287693 261.391304 48.7228641 224.638372 69.7150773"></polygon>
+                  <polygon id="Path-5" points="336.904348 0 385.914877 0 389.182609 23.2383591 344.954365 23.2383591"></polygon>
+                  <polygon id="Path-6" points="476.313043 23.2383591 516.973913 51.6022711 509.092862 63.9054876 476.313043 45.2466283"></polygon>
+                  <polygon id="Path-7" points="476.313043 116.191796 476.313043 126.40444 514.098542 127.810975 516.973913 118.423694"></polygon>
+                  <polygon id="Path-8" points="377.565217 134.990714 409.675327 122.001385 418.226087 141.338057 393.252118 162.668514"></polygon>
+                  <polygon id="Path-9" points="307.86087 189.506493 331.163382 168.478104 354.330435 199.723712 341.167522 220.764412"></polygon>
+                  <polygon id="Path-10" points="275.148006 255.62195 307.86087 276.001298 303.67378 307.908258 261.391304 289.390533"></polygon>
+                  <polygon id="Path-11" points="261.391304 366.004156 261.391304 404.086545 302.052174 412.480874 302.052174 382.780455"></polygon>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="relative">
+          <img alt="" src="/images/blur-cyan.png" width="530" height="530" decoding="async" data-nimg="future" class="absolute -top-64 -right-64">
+          <img alt="" src="/images/blur-indigo.png" width="567" height="567" decoding="async" data-nimg="future" class="absolute -bottom-40 -right-44">
+          <div class="absolute inset-0 rounded-2xl bg-gradient-to-tr from-rose-300 via-rose-300/70 to-pink-300 opacity-10 blur-lg"></div>
+          <div class="absolute inset-0 rounded-2xl bg-gradient-to-tr from-rose-300 via-rose-300/70 to-pink-300 opacity-10"></div>
+          <div class="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur">
+            <div class="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-rose-300/0 via-rose-300/70 to-rose-300/0"></div>
+            <div class="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-pink-400/0 via-pink-400 to-pink-400/0"></div>
+            <div class="pl-4 pt-4">
+              <svg aria-hidden="true" viewBox="0 0 42 10" fill="none" class="h-2.5 w-auto stroke-slate-500/30"><circle cx="5" cy="5" r="4.5"></circle><circle cx="21" cy="5" r="4.5"></circle><circle cx="37" cy="5" r="4.5"></circle></svg>
+              <div class="mt-4 flex space-x-2 text-xs">
+                <div class="flex h-6 rounded-full bg-gradient-to-r from-rose-400/30 via-pink-400 to-rose-400/30 p-px font-medium text-pink-300">
+                  <div class="flex items-center rounded-full px-2.5 bg-slate-800">application.rb</div>
+                </div>
+                <div class="flex h-6 rounded-full text-pink-500">
+                  <div class="flex items-center rounded-full px-2.5">routes.rb</div>
+                </div>
+              </div>
+              <div class="mt-6 flex items-start px-1 text-sm">
+                <div aria-hidden="true" class="select-none border-r border-slate-300/5 pr-4 font-mono text-slate-600">01<br>02<br>03<br>04<br>05<br>06<br>07<br>08<br>09<br>10<br>11<br>12<br>13<br>14<br>15<br></div>
+                <pre class="prism-code language-javascript flex overflow-x-auto pb-6">
+                  <code class="px-4"><span style="color: #f8f8f2">require</span> <span style="color: #e6db74">&quot;rails/all&quot;</span>
+
+<span style="color: #66d9ef">Bundler</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">require(</span><span style="color: #f92672">*</span><span style="color: #66d9ef">Rails</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">groups)</span>
+
+<span style="color: #66d9ef">module</span> <span style="color: #f8f8f2">Expenses</span>
+  <span style="color: #66d9ef">class</span> <span style="color: #a6e22e">Application</span> <span style="color: #f92672">&lt;</span> <span style="color: #e6db74">Rails</span><span style="color: #f8f8f2">:</span><span style="color: #e6db74">:Application</span>
+    <span style="color: #f8f8f2">config</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">load_defaults</span> <span style="color: #ae81ff">7</span><span style="color: #f92672">.</span><span style="color: #ae81ff">0</span>
+
+    <span style="color: #75715e"># config.time_zone = &quot;Central Time (US &amp; Canada)&quot;</span>
+    <span style="color: #75715e"># config.eager_load_paths &lt;&lt; Rails.root.join(&quot;extras&quot;)</span>
+
+    <span style="color: #f8f8f2">config</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">i18n</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">available_locales</span> <span style="color: #f92672">=</span> <span style="color: #f92672">[</span><span style="color: #e6db74">:es</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">:&quot;es-MX&quot;</span><span style="color: #f92672">]</span>
+    <span style="color: #f8f8f2">config</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">i18n</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">default_locale</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">:es</span>
+  <span style="color: #66d9ef">end</span>
+<span style="color: #66d9ef">end</span></code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
+
+        <div class="hidden lg:relative lg:block lg:flex-none">
+  <div class="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden"></div>
+  <div class="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto py-16 pl-0.5">
+    <div class="absolute top-16 bottom-0 right-0 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block"></div>
+    <div class="absolute top-28 bottom-0 right-0 hidden w-px bg-slate-800 dark:block"></div>
+
+    <nav class="text-base lg:text-sm w-64 pr-8 xl:w-72 xl:pr-16">
+        <ul role="list" class="space-y-9">
+    <li>
+      <h2 class="font-display font-medium text-slate-900 dark:text-white">Curso de Ruby on Rails</h2>
+      <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
+          <li class="relative">
+              <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="recursos-para-desarrollar">Recursos para desarrollar con Ruby on Rails</a>
+          </li>
+          <li class="relative">
+              <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="inicializando-la-aplicacion">Inicializando la aplicación</a>
+          </li>
+          <li class="relative">
+              <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="trabajando-con-activerecord">Trabajando con ActiveRecord</a>
+          </li>
+      </ul>
+    </li>
+  </ul>
+
+    </nav>
+  </div>
+</div>
+
+
+        <div class="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16">
+          <article>
+              <header class="mb-9 space-y-1">
+                <p class="font-display text-sm font-medium text-rose-500">Introducción</p>
+                <h1 class="font-display text-3xl tracking-tight text-slate-900 dark:text-white">Aprende a crear aplicaciones Web modernas</h1>
+              </header>
+
+            <div class="prose prose-slate max-w-none dark:prose-invert dark:text-slate-400 prose-headings:scroll-mt-28 prose-headings:font-display prose-headings:font-normal lg:prose-headings:scroll-mt-[8.5rem] prose-lead:text-slate-500 dark:prose-lead:text-slate-400 prose-a:font-semibold dark:prose-a:text-rose-400 prose-a:no-underline prose-a:shadow-[inset_0_-2px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.rose.300))] hover:prose-a:[--tw-prose-underline-size:4px] dark:[--tw-prose-background:theme(colors.slate.900)] dark:prose-a:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,2px))_0_0_var(--tw-prose-underline,theme(colors.rose.800))] dark:hover:prose-a:[--tw-prose-underline-size:4px] prose-pre:rounded-xl prose-pre:bg-slate-900 prose-pre:shadow-lg dark:prose-pre:bg-slate-800/60 dark:prose-pre:shadow-none dark:prose-pre:ring-1 dark:prose-pre:ring-slate-300/10 dark:prose-hr:border-slate-800" data-this-page-target="content" data-quick-links-target="content">
+              <p class="lead">Aprende a desarrollar aplicaciones modernas con Ruby on Rails. </p>
+<p>Ruby on Rails es el framework de desarrollo Web que marcó la tendencia de como construir aplicaciones en el 2004. Su modelo <strong>MVC</strong> o <strong>Model-View-Controller</strong> fue pionero en definir las reglas de como organizar el código y ser más productivos para llevar productos al mercado en el menor tiempo posible. Conceptos como <strong>patrones de ingeniería de software</strong>, <strong>convención sobre configuración</strong> y <strong>DYI (Dont’ repeat your self)</strong> moldearon el mundo del desarrollo Web y las <strong>Startups</strong>.</p>
+
+<p>Ruby on Rails siempre se ha caracterizado por seguir y promover los estándares Web en lugar de reinventar la rueda. El aprovechar al máximo las tecnologías como JSON o XML o tomar ventaja del soporte de los navegadores sobre el HTML, Javascript o CSS en lugar solucionar problemas con atajos o herramientas que agreguen complejidad, ha sido parte de la evolución del framework.</p>
+
+<p>Hoy, a 18 años de que la primera versión fue liberada, la versión 7.0 agrega nuevas herramientas para ayudar a los desarrolladores a crear el tipo de aplicaciones que necesitan los usuarios. Y aunque se diga que esta nueva versión es el retorno de Ruby on Rails, la verdad es que nunca se fue, nuevas <strong>Startups</strong> y servicios se siguieron creando gracias a la confianza y estabilidad que ha venido manteniendo a través de los años.</p>
+
+<hr />
+
+<h2 id="el-curso-aprende-a-desarrollar-aplicaciones-modernas-con-ruby-on-rails">El curso Aprende a desarrollar aplicaciones modernas con Ruby on Rails</h2>
+
+<p>El curso Aprende a desarrollar aplicaciones modernas con Ruby on Rails se compone de una serie de videos para construir una aplicación para el manejo de finanzas personales donde se muestra las características importantes que debemos de conocer al desarrollar aplicaciones con Ruby on Rails.</p>
+
+<div class="not-prose my-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
+    <div class="group relative rounded-xl border border-slate-200 dark:border-slate-800">
+      <div class="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.rose.50)),var(--quick-links-hover-bg,theme(colors.rose.50)))_padding-box,linear-gradient(to_top,theme(colors.pink.400),theme(colors.rose.400),theme(colors.pink.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]"></div>
+
+      <div class="relative overflow-hidden rounded-xl p-6">
+        <div class="[--icon-foreground:theme(colors.pink.700)] [--icon-background:theme(colors.white)]" style="color: var(--icon-foreground);">
+          <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" class="h-8 w-8" xmlns="http://www.w3.org/2000/svg"> <path d="M14.2718 10.445L18 2M9.31612 10.6323L5 2M12.7615 10.0479L8.835 2M14.36 2L13.32 4.5M6 16C6 19.3137 8.68629 22 12 22C15.3137 22 18 19.3137 18 16C18 12.6863 15.3137 10 12 10C8.68629 10 6 12.6863 6 16Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> </svg>
+        </div>
+        <h2 class="mt-4 font-display text-base text-slate-900 dark:text-white">
+          <a href="/">
+            <span class="absolute -inset-px rounded-xl"></span>¿Cómo inicializar una aplicación de forma correcta?
+          </a>
+        </h2>
+        <p class="mt-1 text-sm text-slate-700 dark:text-slate-400">Como inicializar y configurar una aplicación nueva de Ruby on Rails para mejorar la experiencia de desarrollo</p>
+      </div>
+    </div>
+    <div class="group relative rounded-xl border border-slate-200 dark:border-slate-800">
+      <div class="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.rose.50)),var(--quick-links-hover-bg,theme(colors.rose.50)))_padding-box,linear-gradient(to_top,theme(colors.pink.400),theme(colors.rose.400),theme(colors.pink.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]"></div>
+
+      <div class="relative overflow-hidden rounded-xl p-6">
+        <div class="[--icon-foreground:theme(colors.pink.700)] [--icon-background:theme(colors.white)]" style="color: var(--icon-foreground);">
+          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13 21H4C2.89543 21 2 20.1046 2 19V5C2 3.89543 2.89543 3 4 3H20C21.1046 3 22 3.89543 22 5V12" stroke="currentColor" stroke-linecap="round" /> <path d="M2 7L22 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M5 5.01L5.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M8 5.01L8.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M11 5.01L11.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M18.9923 14.125L21.5477 14.774C21.8137 14.8416 22.0013 15.0833 21.9931 15.3576C21.8214 21.1159 18.5 22 18.5 22C18.5 22 15.1786 21.1159 15.0069 15.3576C14.9987 15.0833 15.1863 14.8416 15.4523 14.774L18.0077 14.125C18.3308 14.043 18.6692 14.043 18.9923 14.125Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> </svg>
+        </div>
+        <h2 class="mt-4 font-display text-base text-slate-900 dark:text-white">
+          <a href="/">
+            <span class="absolute -inset-px rounded-xl"></span>Guía de estilo y seguridad en el código
+          </a>
+        </h2>
+        <p class="mt-1 text-sm text-slate-700 dark:text-slate-400">Hacer uso de una guía estandard de estilo en el código y utilizar herramientas para escribir código seguro</p>
+      </div>
+    </div>
+    <div class="group relative rounded-xl border border-slate-200 dark:border-slate-800">
+      <div class="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.rose.50)),var(--quick-links-hover-bg,theme(colors.rose.50)))_padding-box,linear-gradient(to_top,theme(colors.pink.400),theme(colors.rose.400),theme(colors.pink.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]"></div>
+
+      <div class="relative overflow-hidden rounded-xl p-6">
+        <div class="[--icon-foreground:theme(colors.pink.700)] [--icon-background:theme(colors.white)]" style="color: var(--icon-foreground);">
+          <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4 6V12C4 12 4 15 11 15C18 15 18 12 18 12V6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M11 3C18 3 18 6 18 6C18 6 18 9 11 9C4 9 4 6 4 6C4 6 4 3 11 3Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M11 21C4 21 4 18 4 18V12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M17.3056 17.1133L18.2147 15.1856C18.3314 14.9381 18.6686 14.9381 18.7853 15.1856L19.6944 17.1133L21.7275 17.4243C21.9884 17.4642 22.0923 17.7998 21.9035 17.9923L20.4326 19.4917L20.7797 21.61C20.8243 21.882 20.5515 22.0895 20.3181 21.961L18.5 20.9603L16.6819 21.961C16.4485 22.0895 16.1757 21.882 16.2203 21.61L16.5674 19.4917L15.0965 17.9923C14.9077 17.7998 15.0116 17.4642 15.2725 17.4243L17.3056 17.1133Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> </svg>
+        </div>
+        <h2 class="mt-4 font-display text-base text-slate-900 dark:text-white">
+          <a href="/">
+            <span class="absolute -inset-px rounded-xl"></span>Manejo de migraciones y datos seguros
+          </a>
+        </h2>
+        <p class="mt-1 text-sm text-slate-700 dark:text-slate-400">Utilizar correctamente las migraciones, tomar ventaja de los tipos nativos de la base de datos y manejo de datos cifrados.</p>
+      </div>
+    </div>
+    <div class="group relative rounded-xl border border-slate-200 dark:border-slate-800">
+      <div class="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.rose.50)),var(--quick-links-hover-bg,theme(colors.rose.50)))_padding-box,linear-gradient(to_top,theme(colors.pink.400),theme(colors.rose.400),theme(colors.pink.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]"></div>
+
+      <div class="relative overflow-hidden rounded-xl p-6">
+        <div class="[--icon-foreground:theme(colors.pink.700)] [--icon-background:theme(colors.white)]" style="color: var(--icon-foreground);">
+          <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M21 7.6V20.4C21 20.7314 20.7314 21 20.4 21H7.6C7.26863 21 7 20.7314 7 20.4V7.6C7 7.26863 7.26863 7 7.6 7H20.4C20.7314 7 21 7.26863 21 7.6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M18 4H4.6C4.26863 4 4 4.26863 4 4.6V18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M7 16.8L12.4444 15L21 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M16.5 13C15.6716 13 15 12.3284 15 11.5C15 10.6716 15.6716 10 16.5 10C17.3284 10 18 10.6716 18 11.5C18 12.3284 17.3284 13 16.5 13Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> </svg>
+        </div>
+        <h2 class="mt-4 font-display text-base text-slate-900 dark:text-white">
+          <a href="/">
+            <span class="absolute -inset-px rounded-xl"></span>Manejo de archivos y envío de correos electrónicos
+          </a>
+        </h2>
+        <p class="mt-1 text-sm text-slate-700 dark:text-slate-400">Manejo de archivos con ActiveStorage, envío de correos y acciones asíncronas con Sidekiq</p>
+      </div>
+    </div>
+    <div class="group relative rounded-xl border border-slate-200 dark:border-slate-800">
+      <div class="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.rose.50)),var(--quick-links-hover-bg,theme(colors.rose.50)))_padding-box,linear-gradient(to_top,theme(colors.pink.400),theme(colors.rose.400),theme(colors.pink.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]"></div>
+
+      <div class="relative overflow-hidden rounded-xl p-6">
+        <div class="[--icon-foreground:theme(colors.pink.700)] [--icon-background:theme(colors.white)]" style="color: var(--icon-foreground);">
+          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13 21H4C2.89543 21 2 20.1046 2 19V5C2 3.89543 2.89543 3 4 3H20C21.1046 3 22 3.89543 22 5V13" stroke="currentColor" stroke-linecap="round" /> <path d="M22 17.2798C22 17.8812 21.7625 18.4588 21.3383 18.8861C20.3619 19.8701 19.415 20.8961 18.4021 21.8443C18.17 22.0585 17.8017 22.0507 17.5795 21.8268L14.6615 18.8861C13.7795 17.9972 13.7795 16.5623 14.6615 15.6734C15.5522 14.7758 17.0032 14.7758 17.8938 15.6734L17.9999 15.7803L18.1059 15.6734C18.533 15.2429 19.1146 15 19.7221 15C20.3297 15 20.9113 15.2428 21.3383 15.6734C21.7625 16.1007 22 16.6784 22 17.2798Z" stroke="currentColor" stroke-linejoin="round" /> <path d="M2 7L22 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M5 5.01L5.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M8 5.01L8.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M11 5.01L11.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> </svg>
+        </div>
+        <h2 class="mt-4 font-display text-base text-slate-900 dark:text-white">
+          <a href="/">
+            <span class="absolute -inset-px rounded-xl"></span>UI modernas
+          </a>
+        </h2>
+        <p class="mt-1 text-sm text-slate-700 dark:text-slate-400">Uso de Hotwire y Stimulus para crear interfases modernas y responsivas, además hacer uso de i18n para aplicaciones en múltiples idiomas</p>
+      </div>
+    </div>
+    <div class="group relative rounded-xl border border-slate-200 dark:border-slate-800">
+      <div class="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.rose.50)),var(--quick-links-hover-bg,theme(colors.rose.50)))_padding-box,linear-gradient(to_top,theme(colors.pink.400),theme(colors.rose.400),theme(colors.pink.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]"></div>
+
+      <div class="relative overflow-hidden rounded-xl p-6">
+        <div class="[--icon-foreground:theme(colors.pink.700)] [--icon-background:theme(colors.white)]" style="color: var(--icon-foreground);">
+          <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M20 17.6073C21.4937 17.0221 23 15.6889 23 13C23 9 19.6667 8 18 8C18 6 18 2 12 2C6 2 6 6 6 8C4.33333 8 1 9 1 13C1 15.6889 2.50628 17.0221 4 17.6073" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M7.58059 19.4874L9.34836 21.2552C10.9105 22.8173 13.4431 22.8173 15.0052 21.2552L15.3588 20.9016" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M7.93413 21.9623L7.58058 19.4874L10.0554 19.841L7.93413 21.9623Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M16.2981 16.9016L14.5303 15.1339C12.9682 13.5718 10.4355 13.5718 8.87345 15.1339L8.51989 15.4874" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> <path d="M15.9445 14.4268L16.2981 16.9017L13.8232 16.5481L15.9445 14.4268Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /> </svg>
+        </div>
+        <h2 class="mt-4 font-display text-base text-slate-900 dark:text-white">
+          <a href="/">
+            <span class="absolute -inset-px rounded-xl"></span>Pruebas automáticas y desplegado de aplicación a la nube
+          </a>
+        </h2>
+        <p class="mt-1 text-sm text-slate-700 dark:text-slate-400">Como escribir las diferentes tipos de pruebas del sistema y desplegado de la aplicación de forma segura a la nube</p>
+      </div>
+    </div>
+</div>
+
+<p>En el contenido del curso se asume que existe conocimiento básico en el desarrollo de software, así como conocimiento básico de HTML y CSS.</p>
+
+<hr />
+
+<h2 id="es-buen-momento-para-aprender-ruby-on-rails">¿Es buen momento para aprender Ruby on Rails?</h2>
+
+<p>Siempre es un buen momento para agregar herramientas a tu experiencia personal. En específico, sobre Ruby on Rails siempre ha sido un buen momento para conocerlo, si bien la realidad es que ya no es tan popular como hace 10 años, la demanda de desarrolladores para trabajar en aplicaciones existentes o nuevas siempre ha estado presente.</p>
+
+<p>El sitio <a href="https://toprubycompanies.info" target="_blank">Top Ruby Companies</a> es una buena fuente para daros una idea del tipo de empresas que contratan a desarrolladores de Ruby on Rails, aunque deja fuera del listado a las empresas de Latinoamérica que también le apuestan al framework.</p>
+
+<div class="my-8 flex rounded-3xl p-6 bg-rose-50 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10">
+  <div class="flex-none [--icon-foreground:theme(colors.rose.900)] [--icon-background:theme(colors.rose.100)]" style="color: var(--icon-foreground);">
+    <svg width="24" height="24" stroke-width="1.5" class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M21 2L20 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3 2L4 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M21 16L20 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3 16L4 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M9 18H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M10 21H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M11.9998 3C7.9997 3 5.95186 4.95029 5.99985 8C6.02324 9.48689 6.4997 10.5 7.49985 11.5C8.5 12.5 9 13 8.99985 15H14.9998C15 13.0001 15.5 12.5 16.4997 11.5001L16.4998 11.5C17.4997 10.5 17.9765 9.48689 17.9998 8C18.0478 4.95029 16 3 11.9998 3Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </div>
+
+  <div class="ml-4 flex-auto">
+    <p class="m-0 font-display text-xl text-rose-900 dark:text-rose-400">Es posible encontrar empleo como desarrollador de Ruby on Rails</p>
+    <div class="prose mt-2.5 text-rose-800 [--tw-prose-background:theme(colors.rose.50)] prose-a:text-rose-900 prose-code:text-rose-900 dark:text-slate-300 dark:prose-code:text-slate-300">
+      <p>Si durante o al final del curso buscas tu primer trabajo como desarrollador de Ruby on Rails, quizás pueda ayudarte, ya que regularmente se acercan empresas preguntando dónde encontrar gente con conocimiento del framework.</p>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+<h2 id="costo-del-curso">Costo del curso</h2>
+
+<p>El curso tiene un costo de <strong>$ 75.00 USD</strong> como pago único. Este pago es por el acceso al material que se comprende de videos, documentos con información adicional y acceso al código fuente a través de un repositorio de <a href="https://github.com/mariochavez" target="_blank">Github</a>. El costo cubre el uso de una licencia personal y única que no es transferible.</p>
+
+<p>Los primeros tres video son de acceso libre para evaluar la forma y el contenido del curso ya que la compra del curso es final y no existe devolución.</p>
+
+<p>Si tu intención es comprar más de 5 licencias del curso para uso personal o para regalarlas mediante el mecanimos que decidas, es posible otorgar un descuento.</p>
+
+<div class="my-8 flex rounded-3xl p-6 bg-amber-50 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10">
+  <div class="flex-none [--icon-foreground:theme(colors.amber.900)] [--icon-background:theme(colors.amber.100)]" style="color: var(--icon-foreground);">
+    <svg width="24" height="24" stroke-width="1.5" class="h-8 w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 7L12 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M12 17.01L12.01 16.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+   </div>
+
+  <div class="ml-4 flex-auto">
+    <p class="m-0 font-display text-xl text-amber-900 dark:text-amber-500">El curso aún se encuentra en desarrollo</p>
+    <div class="prose mt-2.5 text-amber-800 [--tw-prose-underline:theme(colors.amber.400)] [--tw-prose-background:theme(colors.amber.50)] prose-a:text-amber-900 prose-code:text-amber-900 dark:text-slate-300 dark:[--tw-prose-underline:theme(colors.sky.700)] dark:prose-code:text-slate-300">
+      <p>El curso aún se encuentra en desarrollo, los videos se van a ir publicando conforme se vayan completando aquí en sitio hasta completarse. Por semana al menos 1 video va a ser liberado, es posible que en alguna semana salga más de uno. En el momento que decida que se ha publicado al menos el 50% del contenido se activará opción para compra. No existe un final de cuantos videos conformarán el curso.</p>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+<h2 id="producción-del-curso">Producción del curso</h2>
+
+<div class="space-y-8 sm:grid sm:gap-x-6 sm:gap-y-8 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8">
+  <figure>
+    <img src="/images/mario_chavez.jpg" alt="Mario Alberto Chávez" class="rounded-md shadow-md" />
+    <figcaption>Mario Alberto Chávez hablando sobre desarrollo de APIs REST en Guadalajara, México</figcaption>
+  </figure>
+
+  <div>
+    <p>El curso para Aprender Ruby on Rails lo produzco yo, Mario Alberto Chávez. Como experiencia tengo desarrollando software desde 1992 tanto para dispositivos electrónicos, Mainframe, computadores personales y el Internet.</p>
+
+    <p>La idea de este curso nace a partir de dos intenciones, una personal y otra más general. En lo personal, en el 2009 (aproximadamente) comencé a trabajar con Ruby on Rails para diferentes proyectos. He realizado migraciones desde la versión 2.2 hasta la más reciente. Siempre he tenido un interés en que Ruby y Ruby on Rails siga siendo utilizado, por tal motivo escribo en mi blog, he dado charlas y he impartido cursos.</p>
+
+    <p>En lo más general, tengo ya varios años escuchando que no hay programadoras y programadores de Ruby on Rails. A través de <b>michelada.io</b> y hoy en <b>Aoorora</b> he tenido la oportunidad de platicar con CEOs y CTOs de Estados Unidos, México y algunas partes de América Latina y siempre me dicen lo mismo, no hay desarrolladores. Esta idea los lleva a que sus proyectos se desarrollen en otras tecnologías porque no se quieren a arriesgar a no encontrar personal.</p>
+
+    <p>Hay más empleos para desarrollar en Ruby on Rails que personas que trabajen y conozcan la tecnología. Con este curso espero ayudar a atraer nuevos desarrolladores a la comunidad.</p>
+
+    <div class="flex space-x-4 order-1 not-prose">
+      <a href="https://twitter.com/mario_chavez" class="flex space-x-2 items-center underline decoration-4 underline-offset-4 decoration-rose-300">
+        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+          <path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+
+        <p>@mario_chavez</p>
+      </a>
+
+      <a href="mailto:mario_chavez@gmail.com" class="flex space-x-2 items-center underline decoration-4 underline-offset-4 decoration-rose-300">
+        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+          <path d="M7 9L12 12.5L17 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M2 17V7C2 5.89543 2.89543 5 4 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H4C2.89543 19 2 18.1046 2 17Z" stroke="currentColor" stroke-width="1.5" />
+        </svg>
+        <p>mario.chavez en gmail</p>
+      </a>
+    </div>
+  </div>
+</div>
+
+            </div>
+          </article>
+        </div>
+
+        <div class="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
+          <nav aria-labelledby="on-this-page-title" class="w-56">
+              <h2 id="on-this-page-title" class="font-display text-sm font-medium text-slate-900 dark:text-white">En esta página</h2>
+            <ol role="list" class="mt-4 space-y-3 text-sm" data-this-page-target="list" data-quick-links-target="list">
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </main>
+
+    <div class="fixed inset-0 z-50 flex items-start overflow-y-auto bg-slate-900/50 pr-10 backdrop-blur hidden" aria-label="Navigation" role="dialog" aria-modal="true" data-mobile-menu-target="menu">
+      <div class="min-h-full w-full max-w-xs bg-white px-4 pt-5 pb-12 dark:bg-slate-900 sm:px-6">
+        <div class="flex items-center">
+          <button type="button" aria-label="Close navigation" tabindex="0" data-action="mobile-menu#toggle"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" class="h-6 w-6 stroke-slate-500"><path d="M5 5l14 14M19 5l-14 14"></path></svg></button>
+          <a class="ml-6" aria-label="Home page" href="/">
+            <img src="/images/mc.svg" class="h-5 w-auto fill-slate-700 dark:fill-sky-100 lg:hidden" />
+          </a>
+        </div>
+
+        <nav class="text-base lg:text-sm mt-5 px-1">
+            <ul role="list" class="space-y-9">
+    <li>
+      <h2 class="font-display font-medium text-slate-900 dark:text-white">Curso de Ruby on Rails</h2>
+      <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
+          <li class="relative">
+              <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="recursos-para-desarrollar">Recursos para desarrollar con Ruby on Rails</a>
+          </li>
+          <li class="relative">
+              <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="inicializando-la-aplicacion">Inicializando la aplicación</a>
+          </li>
+          <li class="relative">
+              <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="trabajando-con-activerecord">Trabajando con ActiveRecord</a>
+          </li>
+      </ul>
+    </li>
+  </ul>
+
+        </nav>
+      </div>
+    </div>
+
+  </body>
+</html>
