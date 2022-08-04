@@ -1,0 +1,11 @@
+- title: Curso de Ruby on Rails
+  pages:
+    one:
+      title: Recursos para desarrollar con Ruby on Rails
+      src: recursos-para-desarrollar
+    two:
+      title: Inicializando la aplicación
+      src: inicializando-la-aplicacion
+    three:
+      title: Trabajando con ActiveRecord
+      src: trabajando-con-activerecord

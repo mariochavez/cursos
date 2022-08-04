@@ -1,0 +1,56 @@
+- name: ¿Cómo inicializar una aplicación de forma correcta?
+  description: Como inicializar y configurar una aplicación nueva de Ruby on Rails para mejorar la experiencia de desarrollo
+  icon: <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" class="h-8 w-8" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.2718 10.445L18 2M9.31612 10.6323L5 2M12.7615 10.0479L8.835 2M14.36 2L13.32 4.5M6 16C6 19.3137 8.68629 22 12 22C15.3137 22 18 19.3137 18 16C18 12.6863 15.3137 10 12 10C8.68629 10 6 12.6863 6 16Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+- name: Guía de estilo y seguridad en el código
+  description: Hacer uso de una guía estandard de estilo en el código y utilizar herramientas para escribir código seguro
+  icon: <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 21H4C2.89543 21 2 20.1046 2 19V5C2 3.89543 2.89543 3 4 3H20C21.1046 3 22 3.89543 22 5V12" stroke="currentColor" stroke-linecap="round"/>
+          <path d="M2 7L22 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 5.01L5.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M8 5.01L8.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M11 5.01L11.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18.9923 14.125L21.5477 14.774C21.8137 14.8416 22.0013 15.0833 21.9931 15.3576C21.8214 21.1159 18.5 22 18.5 22C18.5 22 15.1786 21.1159 15.0069 15.3576C14.9987 15.0833 15.1863 14.8416 15.4523 14.774L18.0077 14.125C18.3308 14.043 18.6692 14.043 18.9923 14.125Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+- name: Manejo de migraciones y datos seguros
+  description: Utilizar correctamente las migraciones, tomar ventaja de los tipos nativos de la base de datos y manejo de datos cifrados.
+  icon: <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 6V12C4 12 4 15 11 15C18 15 18 12 18 12V6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M11 3C18 3 18 6 18 6C18 6 18 9 11 9C4 9 4 6 4 6C4 6 4 3 11 3Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M11 21C4 21 4 18 4 18V12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M17.3056 17.1133L18.2147 15.1856C18.3314 14.9381 18.6686 14.9381 18.7853 15.1856L19.6944 17.1133L21.7275 17.4243C21.9884 17.4642 22.0923 17.7998 21.9035 17.9923L20.4326 19.4917L20.7797 21.61C20.8243 21.882 20.5515 22.0895 20.3181 21.961L18.5 20.9603L16.6819 21.961C16.4485 22.0895 16.1757 21.882 16.2203 21.61L16.5674 19.4917L15.0965 17.9923C14.9077 17.7998 15.0116 17.4642 15.2725 17.4243L17.3056 17.1133Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+- name: Manejo de archivos y envío de correos electrónicos
+  description: Manejo de archivos con ActiveStorage, envío de correos y acciones asíncronas con Sidekiq
+  icon: <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 7.6V20.4C21 20.7314 20.7314 21 20.4 21H7.6C7.26863 21 7 20.7314 7 20.4V7.6C7 7.26863 7.26863 7 7.6 7H20.4C20.7314 7 21 7.26863 21 7.6Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18 4H4.6C4.26863 4 4 4.26863 4 4.6V18" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7 16.8L12.4444 15L21 18" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16.5 13C15.6716 13 15 12.3284 15 11.5C15 10.6716 15.6716 10 16.5 10C17.3284 10 18 10.6716 18 11.5C18 12.3284 17.3284 13 16.5 13Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+- name: UI modernas
+  description: Uso de Hotwire y Stimulus para crear interfases modernas y responsivas, además hacer uso de i18n para aplicaciones en múltiples idiomas
+  icon: <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 21H4C2.89543 21 2 20.1046 2 19V5C2 3.89543 2.89543 3 4 3H20C21.1046 3 22 3.89543 22 5V13" stroke="currentColor" stroke-linecap="round"/>
+          <path d="M22 17.2798C22 17.8812 21.7625 18.4588 21.3383 18.8861C20.3619 19.8701 19.415 20.8961 18.4021 21.8443C18.17 22.0585 17.8017 22.0507 17.5795 21.8268L14.6615 18.8861C13.7795 17.9972 13.7795 16.5623 14.6615 15.6734C15.5522 14.7758 17.0032 14.7758 17.8938 15.6734L17.9999 15.7803L18.1059 15.6734C18.533 15.2429 19.1146 15 19.7221 15C20.3297 15 20.9113 15.2428 21.3383 15.6734C21.7625 16.1007 22 16.6784 22 17.2798Z" stroke="currentColor" stroke-linejoin="round"/>
+          <path d="M2 7L22 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 5.01L5.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M8 5.01L8.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M11 5.01L11.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+- name: Pruebas automáticas y desplegado de aplicación a la nube
+  description: Como escribir las diferentes tipos de pruebas del sistema y desplegado de la aplicación de forma segura a la nube
+  icon: <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 17.6073C21.4937 17.0221 23 15.6889 23 13C23 9 19.6667 8 18 8C18 6 18 2 12 2C6 2 6 6 6 8C4.33333 8 1 9 1 13C1 15.6889 2.50628 17.0221 4 17.6073" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7.58059 19.4874L9.34836 21.2552C10.9105 22.8173 13.4431 22.8173 15.0052 21.2552L15.3588 20.9016" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7.93413 21.9623L7.58058 19.4874L10.0554 19.841L7.93413 21.9623Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16.2981 16.9016L14.5303 15.1339C12.9682 13.5718 10.4355 13.5718 8.87345 15.1339L8.51989 15.4874" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M15.9445 14.4268L16.2981 16.9017L13.8232 16.5481L15.9445 14.4268Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+

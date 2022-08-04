@@ -1,0 +1,7 @@
+:root {
+  --color-default: 31, 27, 54;
+}
+
+body {
+  @apply font-sans text-skin-default antialiased;
+}

@@ -1,0 +1,15 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<% resource_title = strip_html(strip_newlines(title)) %>
+<title><%= resource_title %> | <%= metadata.tagline %></title>
+
+<meta name="description" content="<%= metadata.description %>" />
+
+<%= seo %>
+
+<%= feed_meta %>
+<link type="application/atom+xml" rel="alternate" href="<%= "#{url}/feed/pages.xml" %>" title="<%= metadata.title %>">
+
+<link rel="stylesheet" href="<%= webpack_path :css %>" />
+<script src="<%= webpack_path :js %>" defer></script>
+<%= live_reload_dev_js %>

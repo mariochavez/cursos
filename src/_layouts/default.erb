@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="<%= site.config.lang %>" class="antialiased [font-feature-settings:'ss01'] scroll-smooth">
+  <head>
+    <%= render "head", url: site.config.url, metadata: site.metadata, title: resource.data.title %>
+  </head>
+
+  <body class="<%= resource.data.layout %> <%= resource.data.page_class %>" data-controller="mobile-menu">
+    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+
+    <main data-controller="this-page quick-links" data-quick-links-normal-class="font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300" data-quick-links-active-class="text-rose-500">
+      <%= render "hero" if resource.data.hero %>
+
+      <div class="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
+
+        <%= render Shared::Resources.new(data: site.data, metadata: site.metadata, resource: resource) %>
+
+        <div class="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16">
+          <article>
+            <header class="mb-9 space-y-1">
+              <p class="font-display text-sm font-medium text-rose-500"><%= resource.data.subtitle %></p>
+              <h1 class="font-display text-3xl tracking-tight text-slate-900 dark:text-white"><%= resource.data.title %></h1>
+            </header>
+
+            <div class="prose prose-slate max-w-none dark:prose-invert dark:text-slate-400 prose-headings:scroll-mt-28 prose-headings:font-display prose-headings:font-normal lg:prose-headings:scroll-mt-[8.5rem] prose-lead:text-slate-500 dark:prose-lead:text-slate-400 prose-a:font-semibold dark:prose-a:text-rose-400 prose-a:no-underline prose-a:shadow-[inset_0_-2px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.rose.300))] hover:prose-a:[--tw-prose-underline-size:4px] dark:[--tw-prose-background:theme(colors.slate.900)] dark:prose-a:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,2px))_0_0_var(--tw-prose-underline,theme(colors.rose.800))] dark:hover:prose-a:[--tw-prose-underline-size:4px] prose-pre:rounded-xl prose-pre:bg-slate-900 prose-pre:shadow-lg dark:prose-pre:bg-slate-800/60 dark:prose-pre:shadow-none dark:prose-pre:ring-1 dark:prose-pre:ring-slate-300/10 dark:prose-hr:border-slate-800" data-this-page-target="content" data-quick-links-target="content">
+              <%= yield %>
+            </div>
+          </article>
+        </div>
+
+        <div class="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
+          <nav aria-labelledby="on-this-page-title" class="w-56">
+            <h2 id="on-this-page-title" class="font-display text-sm font-medium text-slate-900 dark:text-white">En esta página</h2>
+            <ol role="list" class="mt-4 space-y-3 text-sm" data-this-page-target="list" data-quick-links-target="list">
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </main>
+
+    <div class="fixed inset-0 z-50 flex items-start overflow-y-auto bg-slate-900/50 pr-10 backdrop-blur hidden" aria-label="Navigation" role="dialog" aria-modal="true" data-mobile-menu-target="menu">
+      <div class="min-h-full w-full max-w-xs bg-white px-4 pt-5 pb-12 dark:bg-slate-900 sm:px-6">
+        <div class="flex items-center">
+          <button type="button" aria-label="Close navigation" tabindex="0" data-action="mobile-menu#toggle"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" class="h-6 w-6 stroke-slate-500"><path d="M5 5l14 14M19 5l-14 14"></path></svg></button>
+          <a class="ml-6" aria-label="Home page" href="/">
+            <img src="/images/mc.svg" class="h-5 w-auto fill-slate-700 dark:fill-sky-100 lg:hidden" />
+          </a>
+        </div>
+
+        <nav class="text-base lg:text-sm mt-5 px-1">
+          <%= render Shared::Pages.new(data: site.data, metadata: site.metadata, resource: resource) %>
+        </nav>
+      </div>
+    </div>
+
+    <%#= render "footer", metadata: site.metadata %>
+  </body>
+</html>
