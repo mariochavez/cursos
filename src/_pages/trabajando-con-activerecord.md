@@ -48,6 +48,21 @@ bin/rails test
   </code>
 </pre>
 
+--- 
+
+## El repositorio
+
+El código de este video se encuentra en el [repositorio](https://github.com/mariochavez/expenses/tree/feature/modelo-cuentas){:target="_blank"} bajo el __branch__ **feature/modelo-cuentas**. Para probar el código localmente clona el repositorio, cambia el __branch__ y sigue las instrucciones del archivo [Readme](https://github.com/mariochavez/expenses/blob/main/README.md){:target="_blank"}.
+
+
+<pre class="prism-code">
+  <code>
+git clone https://github.com/mariochavez/expenses.git 
+<span style="color: #008000">cd </span>expenses
+git checkout feature/modelo-cuentas
+  </code>
+</pre>
+
 ---
 
 ## Recursos
