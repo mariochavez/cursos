@@ -19,7 +19,6 @@
 
 url: "https://cursos.mariochavez.io" # the base hostname & protocol for your site, e.g. https://example.com
 
-
 permalink: pretty
 template_engine: erb
 
