@@ -5,6 +5,9 @@ subtitle: Video 2
 src: inicializando-la-aplicacion
 excerpt: El primer paso para comenzar a trabajar con una aplicación de Ruby on Rails es inicializar la aplicación. Este paso no únicamente en crear la estructura inicial de archivos y directorios, también se encarga de hacer la configuración inicial de nuestra aplicación y es aquí donde hacemos los primeros ajustes para configurarla a nuestra forma de trabajar.
 category: aprende
+cover: /images/video-2.jpg
+image:
+  path: /images/video-2.jpg
 ---
 
 El primer paso para comenzar a trabajar con una aplicación de Ruby on Rails es inicializar la aplicación. Este paso no únicamente en crear la estructura inicial de archivos y directorios, también se encarga de hacer la configuración inicial de nuestra aplicación y es aquí donde hacemos los primeros ajustes para configurarla a nuestra forma de trabajar.

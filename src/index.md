@@ -3,7 +3,7 @@ layout: default
 hero: true
 title: Aprende a crear aplicaciones Web modernas
 subtitle: Introducción
-excerpt: El curso Aprende a desarrollar aplicaciones modernas con Ruby on Rails se compone de una serie de videos para construir una aplicación para el manejo de finanzas personales donde se muestra las características importantes que debemos de conocer al desarrollar aplicaciones con Ruby on Rails.
+excerpt: Aprende a desarrollar aplicaciones modernas con Ruby on Rails se compone de una serie de videos para construir una aplicación para el manejo de finanzas personales donde se muestra las características importantes que debemos de conocer al desarrollar aplicaciones con Ruby on Rails.
 ---
 
 <p class="lead">Aprende a desarrollar aplicaciones modernas con Ruby on Rails. </p>
@@ -15,9 +15,9 @@ Hoy, a 18 años de que la primera versión fue liberada, la versión 7.0 agrega 
 
 ---
 
-## El curso Aprende a desarrollar aplicaciones modernas con Ruby on Rails
+## Serie de videos Aprende a desarrollar aplicaciones modernas con Ruby on Rails
 
-El curso Aprende a desarrollar aplicaciones modernas con Ruby on Rails se compone de una serie de videos para construir una aplicación para el manejo de finanzas personales donde se muestra las características importantes que debemos de conocer al desarrollar aplicaciones con Ruby on Rails.
+Aprende a desarrollar aplicaciones modernas con Ruby on Rails se compone de una serie de videos para construir una aplicación para el manejo de finanzas personales donde se muestra las características importantes que debemos de conocer al desarrollar aplicaciones con Ruby on Rails.
 
 <div class="not-prose my-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
   <% site.data.aprende.each do |feature| %>
@@ -39,7 +39,7 @@ El curso Aprende a desarrollar aplicaciones modernas con Ruby on Rails se compon
   <% end %>
 </div>
 
-En el contenido del curso se asume que existe conocimiento básico en el desarrollo de software, así como conocimiento básico de HTML y CSS.
+En el contenido de la serie se asume que existe conocimiento básico en el desarrollo de software, así como conocimiento básico de HTML y CSS.
 
 ---
 
@@ -63,22 +63,24 @@ El sitio [Top Ruby Companies](https://toprubycompanies.info){:target="_blank"} e
   </div>
 
   <div class="ml-4 flex-auto">
-    <p class="m-0 font-display text-xl text-rose-900 dark:text-rose-400">Es posible encontrar empleo como desarrollador de Ruby on Rails</p>
+    <p class="m-0 font-display text-xl text-rose-900 dark:text-rose-400">¿Es posible encontrar empleo como desarrollador de Ruby on Rails?</p>
     <div class="prose mt-2.5 text-rose-800 [--tw-prose-background:theme(colors.rose.50)] prose-a:text-rose-900 prose-code:text-rose-900 dark:text-slate-300 dark:prose-code:text-slate-300">
-      <p>Si durante o al final del curso buscas tu primer trabajo como desarrollador de Ruby on Rails, quizás pueda ayudarte, ya que regularmente se acercan empresas preguntando dónde encontrar gente con conocimiento del framework.</p>
+      <p>Hoy en día existe una demanda importante de personas con conocimientos en Ruby y específicamente Ruby on Rails.</p>
     </div>
   </div>
 </div>
 
 ---
 
-## Costo del curso
+## Subscripción a las series de videos
 
-El curso tiene un costo de **$ 75.00 USD** como pago único. Este pago es por el acceso al material que se comprende de videos, documentos con información adicional y acceso al código fuente a través de un repositorio de [Github](https://github.com/mariochavez){:target="_blank"}. El costo cubre el uso de una licencia personal y única que no es transferible.
+La subscripción a la serie de videos es semestral y tiene un valor de $1,500.00 pesos mexicanos. Este pago es por el acceso al material que se comprende de videos, documentos con información adicional y acceso al código fuente a través de un repositorio de [Github](https://github.com/mariochavez){:target="_blank"}. El costo cubre el uso de una licencia personal y única que no es transferible.
 
-Los primeros tres video son de acceso libre para evaluar la forma y el contenido del curso ya que la compra del curso es final y no existe devolución.
+Los videos principales son en torno a Ruby on Rails y como crear una aplicación completa y moderna desde cero, pero también existen otro tipo de videos complementarios que pueden ser series de dos o tres videos o videos totalmente independientes. El compromiso es de liberar al menos dos videos al mes.
 
-Si tu intención es comprar más de 5 licencias del curso para uso personal o para regalarlas mediante el mecanimos que decidas, es posible otorgar un descuento.
+Al final de los 6 meses puedes optar por adquirir otra subscripción o  no. Los primeros tres video son de acceso libre para evaluar la forma y el contenido de la serie ya que la compra de la subscripción es final y no existe devolución.
+
+Si tu intención es comprar 5 o más subscripciones para uso personal o para regalarlas mediante el mecanimos que decidas, es posible otorgar un descuento.
 
 <div class="my-8 flex rounded-3xl p-6 bg-amber-50 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10">
   <div class="flex-none [--icon-foreground:theme(colors.amber.900)] [--icon-background:theme(colors.amber.100)]" style="color: var(--icon-foreground);">
@@ -90,16 +92,16 @@ Si tu intención es comprar más de 5 licencias del curso para uso personal o pa
    </div>
 
   <div class="ml-4 flex-auto">
-    <p class="m-0 font-display text-xl text-amber-900 dark:text-amber-500">El curso aún se encuentra en desarrollo</p>
+    <p class="m-0 font-display text-xl text-amber-900 dark:text-amber-500">Revisa los videos disponibles de manera libre</p>
     <div class="prose mt-2.5 text-amber-800 [--tw-prose-underline:theme(colors.amber.400)] [--tw-prose-background:theme(colors.amber.50)] prose-a:text-amber-900 prose-code:text-amber-900 dark:text-slate-300 dark:[--tw-prose-underline:theme(colors.sky.700)] dark:prose-code:text-slate-300">
-      <p>El curso aún se encuentra en desarrollo, los videos se van a ir publicando conforme se vayan completando aquí en sitio hasta completarse. Por semana al menos 1 video va a ser liberado, es posible que en alguna semana salga más de uno. En el momento que decida que se ha publicado al menos el 50% del contenido se activará opción para compra. No existe un final de cuantos videos conformarán el curso.</p>
+      <p>Recuerda que la compra semestral de la subscripción es final y no tiene devolución. Por eso te invito a revisar los videos libres para que decidas si la subscripción es para ti o no.</p>
     </div>
   </div>
 </div>
 
 ---
 
-## Producción del curso
+## Producción de los videos
 
 <div class="space-y-8 sm:grid sm:gap-x-6 sm:gap-y-8 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8">
   <figure>
@@ -108,13 +110,13 @@ Si tu intención es comprar más de 5 licencias del curso para uso personal o pa
   </figure>
 
   <div>
-    <p>El curso para Aprender Ruby on Rails lo produzco yo, Mario Alberto Chávez. Como experiencia tengo desarrollando software desde 1992 tanto para dispositivos electrónicos, Mainframe, computadores personales y el Internet.</p>
+    <p>La serie Aprender Ruby on Rails lo produzco yo, Mario Alberto Chávez. Como experiencia tengo desarrollando software desde 1992 tanto para dispositivos electrónicos, Mainframe, computadores personales y el Internet.</p>
 
-    <p>La idea de este curso nace a partir de dos intenciones, una personal y otra más general. En lo personal, en el 2009 (aproximadamente) comencé a trabajar con Ruby on Rails para diferentes proyectos. He realizado migraciones desde la versión 2.2 hasta la más reciente. Siempre he tenido un interés en que Ruby y Ruby on Rails siga siendo utilizado, por tal motivo escribo en mi blog, he dado charlas y he impartido cursos.</p>
+    <p>La idea de la serie de videos nace a partir de dos intenciones, una personal y otra más general. En lo personal, en el 2009 (aproximadamente) comencé a trabajar con Ruby on Rails para diferentes proyectos. He realizado migraciones desde la versión 2.2 hasta la más reciente. Siempre he tenido un interés en que Ruby y Ruby on Rails siga siendo utilizado, por tal motivo escribo en mi blog, he dado charlas y he impartido cursos.</p>
 
     <p>En lo más general, tengo ya varios años escuchando que no hay programadoras y programadores de Ruby on Rails. A través de <b>michelada.io</b> y hoy en <b>Aoorora</b> he tenido la oportunidad de platicar con CEOs y CTOs de Estados Unidos, México y algunas partes de América Latina y siempre me dicen lo mismo, no hay desarrolladores. Esta idea los lleva a que sus proyectos se desarrollen en otras tecnologías porque no se quieren a arriesgar a no encontrar personal.</p>
 
-    <p>Hay más empleos para desarrollar en Ruby on Rails que personas que trabajen y conozcan la tecnología. Con este curso espero ayudar a atraer nuevos desarrolladores a la comunidad.</p>
+    <p>Por esta razón he decidido realizar esta serie de videos con la intención de nuevas y nuevos desarrollares conozcan la tecnología.</p>
 
     <div class="flex space-x-4 order-1 not-prose">
       <a href="https://twitter.com/mario_chavez" class="flex space-x-2 items-center underline decoration-4 underline-offset-4 decoration-rose-300">

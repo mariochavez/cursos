@@ -5,6 +5,9 @@ subtitle: Video 3
 src: trabajando-con-activerecord
 excerpt: ActiveRecord es la parte del framework de Ruby on Rails que nos permite conectarnos con la base de datos. La forma como lo hace es mapeando las columnas de una tabla a atributos en una clase de Ruby, además de proporcionar métodos para poder hacer cambios en los datos, así como consultas.
 category: aprende
+cover: /images/video-3.jpg
+image:
+  path: /images/video-3.jpg
 ---
 
 ActiveRecord es la parte del framework de Ruby on Rails que nos permite conectarnos con la base de datos. La forma como lo hace es mapeando las columnas de una tabla a atributos en una clase de Ruby, además de proporcionar métodos para poder hacer cambios en los datos, así como consultas.

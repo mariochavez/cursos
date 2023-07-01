@@ -5,6 +5,9 @@ subtitle: Video 1
 src: recursos-para-desarrollar
 excerpt: En este video, antes de comenzar a trabajar con código, voy a recomendarles algunas páginas web y herramientas que si bien no son requeridas conocer o utilizar, son importantes y pueden ayudar en gran medida durante el desarrollo.
 category: aprende
+cover: /images/video-1.jpg
+image:
+  path: /images/video-1.jpg
 ---
 
 En este video, antes de comenzar a trabajar con código, voy a recomendarles algunas páginas web y herramientas que si bien no son requeridas conocer o utilizar, son importantes y pueden ayudar en gran medida durante el desarrollo.

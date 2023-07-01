@@ -38,7 +38,7 @@ defaults:
   -
     values:
       image:
-        path: /images/aprende.jpg
+        path: /images/aprende-ruby.jpg
         height: 674
         width: 1200
 
