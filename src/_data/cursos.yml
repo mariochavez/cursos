@@ -9,3 +9,9 @@
     three:
       title: Trabajando con ActiveRecord
       src: trabajando-con-activerecord
+    four:
+      title: Trabajando con ActionController Parte 1
+      src: trabajando-con-actioncontroller-parte1
+    five:
+      title: Trabajando con ActionController Parte 2
+      src: trabajando-con-actioncontroller-parte2
