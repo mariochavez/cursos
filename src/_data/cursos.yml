@@ -1,3 +1,8 @@
+- title: Trabajando con Ruby
+  pages:
+    bridgetown:
+      title: Usa Bridgetown para crear tu blog personal y publícalo en Github
+      src: usa-bridgetown-blog-personal-publicalo-github
 - title: Videos de Ruby on Rails
   pages:
     one:
